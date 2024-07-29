@@ -1,0 +1,5 @@
+faker
+colorama
+requests
+tqdm
+openpyxl

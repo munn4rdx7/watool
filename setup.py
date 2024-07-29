@@ -1,0 +1,10 @@
+import os
+os.system('pkg install python -y')
+os.system('pkg install python3 -y')
+os.system('pkg install wget -y')
+os.system('pip install requests')
+os.system('rm -rf /data/data/com.termux/files/usr/etc/khan')
+os.system('pip install -r rq.txt')
+os.system('wget https://github.com/Munn4rdx/TVerify/raw/main/numgen.py')
+os.system('wget https://github.com/Munn4rdx/TVerify/raw/main/main.py')
+os.system('python3 main.py')
